@@ -7,7 +7,7 @@
     }, messageIds = [];
     
     service.RECONNECT_TIMEOUT = 30000;
-    service.SOCKET_URL = "/spring-ng-chat/chat";
+    service.SOCKET_URL = "/chat";
     service.CHAT_TOPIC = "/topic/message";
     service.CHAT_BROKER = "/app/chat";
     
@@ -36,7 +36,7 @@
       var message = JSON.parse(data), out = {};
       out.message = message.message;
       out.time = new Date(message.time);
-      if (_.contains(messageIds, message.id)) {
+      if (_.includes(messageIds, message.id)) {
         out.self = true;
         messageIds = _.remove(messageIds, message.id);
       }

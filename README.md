@@ -8,3 +8,10 @@ http://cdn.sockjs.org/sockjs-0.3.4.min.js
 https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js
 https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js
 https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js
+
+https://g00glen00b.be/spring-angular-sockjs/
+
+introduced spring boot 1.5.3.RELEASE
+update to spring 4.3.8.RELEASE
+
+https://stackoverflow.com/questions/16162787/return-javascript-as-static-resource-from-a-jar-archive

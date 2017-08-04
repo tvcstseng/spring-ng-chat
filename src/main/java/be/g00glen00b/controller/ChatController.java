@@ -11,6 +11,7 @@ import be.g00glen00b.dto.*;
 
 @Controller
 @RequestMapping("/")
+@CrossOrigin(origins = "http://localhost:4200", maxAge = 3600)
 public class ChatController {
 
   private Logger logger = LoggerFactory.getLogger(getClass());
